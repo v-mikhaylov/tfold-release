@@ -1,0 +1,26 @@
+name: tfold-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.19
+  - scipy=1.7
+  - pandas==1.4.*
+  - cudnn=8.2
+  - cudatoolkit=11.0
+  - biopython==1.79
+  - bioconda::kalign2=2.04
+  - jupyter
+  - pip 
+  - pip:
+    - absl-py==0.13.0
+    - chex==0.0.7
+    - dm-haiku==0.0.4
+    - dm-tree==0.1.6
+    - immutabledict==2.0.0
+    - jax==0.2.14
+    - jaxlib==0.1.67
+    - ml-collections==0.1.0
+    - tensorflow==2.5
+    - tensorflow-cpu==2.5
