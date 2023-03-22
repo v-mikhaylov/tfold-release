@@ -5,6 +5,8 @@
 #e.g. '/data/vmikhayl/tfold-release/data'
 data_dir=#
 
+#a tmp folder to store data from blastp alignments
+seq_tools_tmp_dir=#
 ##########################################################################################################
 ##########################################################################################################
 ##########################################################################################################
@@ -17,9 +19,6 @@ data_dir=#
 
 #seq_tools
 seq_tools_data_dir=data_dir+'/seq_tools'                  #path to data
-seq_tools_tmp_dir='/data/vmikhayl/tfold/tmp/seq_tools'
-#seq_tools_tmp_dir='/scratch/vmikhayl/tmp_blast'           #helios         #path to tmp dir to be used in BLAST searches
-#seq_tools_tmp_dir='/scratch/lustre/vmikhayl/tmp_blast'    #typhon        #if typhon server is used
 
 #TFold comes with a python wrapper for netMHCpan-4.1/IIpan-3.4,4.0. 
 #If you want to use it, set variables below. Otherwise, these variables aren't be used.
