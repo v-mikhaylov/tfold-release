@@ -21,7 +21,7 @@ pip install --upgrade jax==0.2.24 jaxlib==0.1.69+cuda111 -f https://storage.goog
 
 4. Download the data file `data.tar.gz` with templates and other information from Zenodo:
 ```
-https://zenodo.org/record/7700748#.ZAV0sy-B23x
+https://zenodo.org/record/7803946
 ```
 and unpack it into the `tfold-release` folder. This will create a folder `data`.
 
