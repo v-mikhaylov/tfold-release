@@ -19,11 +19,12 @@ pip install --upgrade jax==0.2.24 jaxlib==0.1.69+cuda111 -f https://storage.goog
 ```
 (This environment for running AlphaFold outside of Docker is due to https://github.com/kalininalab/alphafold_non_docker.)
 
-4. Download the data file `data.tar.gz` with templates and other information from Zenodo:
+4. Download the data file `data.tar.gz` with templates and other information from Zenodo, `https://zenodo.org/record/7803946`. This can be done in web browser or using `zenodo-get`:
 ```
-https://zenodo.org/record/7803946
+pip install zenodo-get
+zenodo_get 7803946
 ```
-and unpack it into the `tfold-release` folder. This will create a folder `data`.
+Unpack `data.tar.gz` into the `tfold-release` folder. This will create a folder `data`.
 
 5. Set paths to a couple folders in `tfold/config.py` and `tfold_patch/tfold_config.py`.
 
