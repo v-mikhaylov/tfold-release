@@ -1,6 +1,7 @@
 # AlphaFold-based pipeline for prediction of peptide-MHC structures.
 Please cite as:<br>
-Victor Mikhaylov and Arnold J. Levine, "Accurate modeling of peptide-MHC structures with AlphaFold", to appear.<br>
+V. Mikhaylov, A. J. Levine, "Accurate modeling of peptide-MHC structures with AlphaFold,"<br>
+bioRxiv 2023.03.06.531396; doi: https://doi.org/10.1101/2023.03.06.531396<br>
 
 # Download and install
 1. Download AlphaFold and its parameters. (This pipeline was tested with AlphaFold 2.1.0.) No need to download PDB and the protein databases.
