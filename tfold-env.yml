@@ -11,7 +11,6 @@ dependencies:
   - cudatoolkit=11.0
   - biopython==1.79
   - bioconda::kalign2=2.04
-  - jupyter
   - pip 
   - pip:
     - absl-py==0.13.0
@@ -19,8 +18,9 @@ dependencies:
     - dm-haiku==0.0.4
     - dm-tree==0.1.6
     - immutabledict==2.0.0
-    - jax==0.2.14
-    - jaxlib==0.1.67
+    - jax==0.2.24
     - ml-collections==0.1.0
     - tensorflow==2.5
     - tensorflow-cpu==2.5
+    - jaxlib==0.1.69+cuda111
+    - -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
