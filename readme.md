@@ -16,7 +16,6 @@ Enter the `tfold-release` folder.
 ```
 conda env create --file tfold-env.yml
 conda activate tfold-env
-pip install --upgrade jax==0.2.24 jaxlib==0.1.69+cuda111 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 ```
 (This environment for running AlphaFold outside of Docker is due to https://github.com/kalininalab/alphafold_non_docker.)
 
